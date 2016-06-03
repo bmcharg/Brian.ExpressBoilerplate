@@ -23,11 +23,6 @@ app.use(routes);
 /* Add a handler for the root URL which outputs status */
 app.get('/', function(req, res){
 
-
-	// var launched = app.get('startTime');
-	// var uptime = moment()
-
-
 	res.json({
 
 		app: {
@@ -42,8 +37,6 @@ app.get('/', function(req, res){
 		}
 	});
 
-
-	// res.send('Server up since ' + app.get('startTime'));
 })
 
 /* Begin listening */
